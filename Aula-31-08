@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*condições alinhadas é quando tem um bloco de código dentro de outro
+/*condiÃ§Ãµes alinhadas Ã© quando tem um bloco de cÃ³digo dentro de outro
 ( if dentro de if, etc...)*/
 
-/*sempre que a pergunta usa verifique ou caso é pra testar o que está inserdo 
+/*sempre que a pergunta usa verifique ou caso Ã© pra testar o que estÃ¡ inserdo 
 dentro do programa*/
 
-/*&& == lógico ou e-lógico(implementação lógica) == E*/
+/*&& == lÃ³gico ou e-lÃ³gico(implementaÃ§Ã£o lÃ³gica) == E*/
 /*|| == OU */
 
 /*
-31/08 crie um priograma que leia um número, entre 1 e 9 e verifique se ele é um número primo, caso seja, imprima seu dobro, caso não
-seja primo, verifique se é par ou impar.Se for par mostre o resultado da soma com
-2. Se for impar mostre seu próximo e seu anterio, caso seja negativo moste seu in-
+31/08 crie um priograma que leia um nÃºmero, entre 1 e 9 e verifique se ele Ã© um nÃºmero primo, caso seja, imprima seu dobro, caso nÃ£o
+seja primo, verifique se Ã© par ou impar.Se for par mostre o resultado da soma com
+2. Se for impar mostre seu prÃ³ximo e seu anterio, caso seja negativo moste seu in-
 verso.
-Caso não esteja entre 1 e 9 mostre _out_of_range.*/
+Caso nÃ£o esteja entre 1 e 9 mostre _out_of_range.*/
 
 int main(int argc, char *argv[]) {
 	/*	
@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 	
 		// equivalente (n>1 && n<=10)
 	if( n<10 && n>0)
-		//isso é interessante (!(n==4 || n==6 || n==8 || n==9))
+		//isso Ã© interessante (!(n==4 || n==6 || n==8 || n==9))
 		if (n==1 || n==2 || n==3 || n==5 || n==7)
 			printf("O dobro de %d = %d", n, (n*2));
 		
@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
 	
 	case 'b': printf("Benedito"); break;
 	
-	case 'c': printf("É complicada a situação"); break;
+	case 'c': printf("Ã‰ complicada a situaÃ§Ã£o"); break;
 	
 	case 'd': printf("Tamo Junto"); break;
 	

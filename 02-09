@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 void exec2 (){
-/*FaÁa um programa que leia um valor em reais e a cotaÁ„o do dolar.Em seguida,
-imprima o valor correspondente em dÛlares*/
+/*Fa√ßa um programa que leia um valor em reais e a cota√ß√£o do dolar.Em seguida,
+imprima o valor correspondente em d√≥lares*/
 	float dolar, real, cota;
 	
 	printf("Informe o valor para conversao: \n");
@@ -21,13 +21,13 @@ convertida em Fahrenheir*/
 	printf("Qual a temperatura em C?\n");
 	scanf("%f", &tempC);
 	tempF = tempC *(9.0/5.0) + 32.0;
-	printf("A temperatura m·xima de hj na tela da globo %f", tempF);
+	printf("A temperatura m√°xima de hj na tela da globo %f", tempF);
 }
 
 
 void exec8(){
-/* Leia um valor inteiro, que È o tempo de duraÁ„o em segundos de um evento
-em determinado evento em uma f·brica, e informe-o*/
+/* Leia um valor inteiro, que √© o tempo de dura√ß√£o em segundos de um evento
+em determinado evento em uma f√°brica, e informe-o*/
 		
 	int seg, horas, minu;
 	

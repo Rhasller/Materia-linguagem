@@ -3,6 +3,8 @@
 
 int main(int argc, char *argv[]) {
 	
+	printf("Revisão 1:\n");
+	
 	int a,b,c,d,temp;
 	
 	
@@ -26,6 +28,37 @@ int main(int argc, char *argv[]) {
 	b = temp;
 	
 	printf("Valores na ordem\n C= |%d|\n A= |%d|\n D= |%d|\n B= |%d|",a,b,c,d);
+	
+	printf("\nRevisão 2:\n");
+
+	float patrimonio, quantidadeacoes, precoacao, VPA, PVP;
+//PARA CALCULAR O VPA DIVIDIMOS O VALOR DO PATRIMONIO DA EMPRESA PELA QUANTIDADE TOTAL DE AÇÕES (patrimonio / quantidadeacoes)
+//PARA CALCULAR O PVP DIVIDIMOS O PREÇO DA AÇÃO PELO VPA (PVP / VPA)
+
+	printf("Informe o valor patrimonial da empresa em R$: \n");
+	scanf("%f",&patrimonio);
+	
+	printf("Informe a quantidade de acoes disponiveis: \n");
+	scanf("%f",&quantidadeacoes);
+	
+	printf("Informe o preco atual das acoes: \n");
+	scanf("%f",&precoacao);
+	
+	VPA = patrimonio / quantidadeacoes;
+	PVP = precoacao / VPA;
+	
+	
+    if (PVP < 0) {
+        printf("Classificacao pessima!\n");
+    } else if (PVP < 0.8) {
+        printf("Classificacao Otima!\n");
+    } else if (PVP <= 1.2) {
+        printf("Classificacao Indiferente\n");
+    } else if (PVP <= 2.0) {
+        printf("Classificacao Boa!\n");
+    } else {
+        printf("Classificacao Ruim!\n");
+    }
 	
 	return 0;
 }

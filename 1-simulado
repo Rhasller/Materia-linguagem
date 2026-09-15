@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	
+	int a,b,c,d,temp;
+	
+	
+	printf("Informe o primeiro digito: ");
+	scanf("%d",&a);
+	
+	printf("Informe o segundo digito: ");
+	scanf("%d",&b);
+	
+	printf("Informe o terceiro digito: ");
+	scanf("%d",&c);
+	
+	printf("Informe o quarto digito: ");
+	scanf("%d",&d);
+	
+	
+	temp = a;
+	a = c;
+	c = d;
+	d = b;
+	b = temp;
+	
+	printf("Valores na ordem\n C= |%d|\n A= |%d|\n D= |%d|\n B= |%d|",a,b,c,d);
+	
+	return 0;
+}

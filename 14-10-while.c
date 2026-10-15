@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /*
-FaÁa um programa que leia 10 numeros inteiros positivos, calcule a soma e a mÈdia
+Fa√ßa um programa que leia 10 numeros inteiros positivos, calcule a soma e a m√©dia
  e mostre na tela.
- OBS: somente com 3 vari·veis (i,n,s). N„o pode ser vetor,n„o pode usar laÁo
+ OBS: somente com 3 vari√°veis (i,n,s). N√£o pode ser vetor,n√£o pode usar la√ßo
 */
 
 int main(int argc, char *argv[]) {

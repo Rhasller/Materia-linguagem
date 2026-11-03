@@ -75,7 +75,7 @@ int main(int argc, char *argv[]) {
 			if( b != 0){
 				printf("O resultado utilizando a operacao /: %f", (a / b));
 			}else{
-				printf("Não existe divisao por 0!");
+				printf("NÃ£o existe divisao por 0!");
 			}
 		break;
 		

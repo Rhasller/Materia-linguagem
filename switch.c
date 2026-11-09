@@ -42,6 +42,7 @@ int main(int argc, char *argv[]) {
 	}
 	
 	*/
+	/*
 	float a, b;
 	int op;
 	
@@ -83,6 +84,121 @@ int main(int argc, char *argv[]) {
 			printf("Informe uma das operacoes informadas!");
 		break;		
 	}
+	*/
+	char letra;
 	
+	printf("Informe uma letra minuscula: ");
+	scanf(" %c", &letra);
+	
+	switch(letra){
+	
+		case 'a':
+			printf("\nAmor");
+		break;
+		
+		case 'b':
+			printf("\nBaixinho");
+		break;
+		
+		case 'c':
+			printf("\nCoracao");
+		break;
+		
+		case 'd':
+			printf("\nDocinho");
+		break;
+		
+		case 'e':
+			printf("\nEscola");
+		break;
+		
+		case 'f':
+			printf("\nFeijão");
+		break;
+		
+		case 'g':
+			printf("\nGente");
+		break;
+		
+		case 'h':
+			printf("\nHumano");
+		break;
+		
+		case 'i':
+			printf("\nIgualdade");
+		break;
+		
+		case 'j':
+			printf("\nJuventude");
+		break;
+		
+		case 'k':
+			printf("\nKakah");
+		break;
+		
+		case 'l':
+			printf("\nLiberdade");
+		break;
+		
+		case 'm':
+			printf("\nMolecagem");
+		break;
+		
+		case 'n':
+			printf("\nNatureza");
+		break;
+		
+		case 'o':
+			printf("\nObrigado");
+		break;
+		
+		case 'p':
+			printf("\nProteja");
+		break;
+		
+		case 'q':
+			printf("\nQuero-quero");
+		break;
+		
+		case 'r':
+			printf("\nRiacho");
+		break;
+		
+		case 's':
+			printf("\nSaudade");
+		break;
+		
+		case 't':
+			printf("\nTerra");
+		break;
+		
+		case 'u':
+			printf("\nUniverso");
+		break;
+		
+		case 'v':
+			printf("\nVitoria");
+		break;
+		
+		case 'w':
+			printf("\nWarzone");
+		break;
+		
+		case 'x':
+			printf("\nXuxa");	
+		break;
+		
+		case 'y':
+			printf("\nYaya");
+		break;
+		
+		case 'z':
+			printf("\nZaazzzzz");
+		break;
+		
+		default:
+			printf(" TU TEM A KARALHA DAS ORIENTACOES E NAO USA EH DE FUDER!");
+		break;		
+	}
 return 0;
 }

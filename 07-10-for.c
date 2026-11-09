@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*FaÁa um programa que leia 10 valores do teclado, e mostre
+/*Fa√ßa um programa que leia 10 valores do teclado, e mostre
 na  tela o maior entre os 5 primeiros e o menor entre os 5 restantes*/
 
 int compara(int a, int b){
@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("Leia os numeros: ");
 	
-	// PARA (INICIAL, CONDI«√O, INCREMENTO)
+	// PARA (INICIAL, CONDI√á√ÉO, INCREMENTO)
 	
 	for(i=0; i<10; i++){
 		scanf("%d",&valor[i]);

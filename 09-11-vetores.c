@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// BLOCO DE CÓDIGO REUTILIZAVEL POR TODO O PROGRAMA, QUE RECEVE DOIS VALORES
+// BLOCO DE CÃ“DIGO REUTILIZAVEL POR TODO O PROGRAMA, QUE RECEVE DOIS VALORES
 // INTEIROS PARA REALIZAR O CALCULO
 int calculo_maior (int a, int b){
 	return ((a + b + (abs((a - b))))/ 2);
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	for (i = 0; i < 10; i++){
 		scanf("%d",&vet[i]);
 	}
-	// INICIALIZAÇÃO, VERIFICAÇÃO, INCREMENTO
+	// INICIALIZAÃ‡ÃƒO, VERIFICAÃ‡ÃƒO, INCREMENTO
 	for (i = 1, maior = vet[0]; i < 10; i++){
 		maior = calculo_maior(maior, vet[i]);
 		
